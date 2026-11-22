@@ -1,0 +1,14 @@
+WeightDeficitTracker/
+├── .github/workflows/build-apk.yml
+├── build.gradle.kts
+├── settings.gradle.kts
+├── gradle.properties
+└── app/
+    ├── build.gradle.kts
+    └── src/main/
+        ├── AndroidManifest.xml
+        └── java/com/tracker/weight/
+            ├── MainActivity.kt
+            ├── TrackerDatabase.kt
+            ├── TrackerViewModel.kt
+            └── UiComponents.kt
